@@ -23,7 +23,7 @@ int main()
     {
         if(y!=0)
         {
-            printf("Div:", (float)x/y);
+            printf("Div:%f", (float)x/y);
         }
         else
         {
