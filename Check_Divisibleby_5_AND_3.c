@@ -16,9 +16,13 @@ int main()
             printf("The number is only divisible by 3 ");
         }
     }
-    if (x%5 == 0)
+    else if (x%5 == 0)
     {
         printf("The number is only divisible by 5");
+    }
+    else
+    {
+        printf("Not divisible by both 3 and 5");
     }
     return 0;
 }
